@@ -21,13 +21,26 @@
       "supportsTablet": true
     },
     "android": {
+      "package" : "com.rockstone.mapas",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+
+      "config":{
+        "googleMaps" :{
+          "apiKey": "AIzaSyDjNjkIIlIpCtL-ywcYsJHpXFtcx3lXt0c"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb627d84-ea5e-49d8-9e6d-22a4d742c47f"
+      }
     }
+    
   }
 }
